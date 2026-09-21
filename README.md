@@ -11,7 +11,7 @@ Cílem bylo odhalit v datech a navrhnout akční retenční strategii pro stabil
 
 **2.) Past manuálních plateb:**
 
-\- měsíční tarify placené manuálně (elektronickým šekem) vykazují extrémní odchodovost 51,61 %
+\- měsíční tarify placené manuálně vykazují extrémní odchodovost 51,61 %
 
 **3.) Nezbytnost technické podpory:**
 
