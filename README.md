@@ -44,3 +44,6 @@ Cílem bylo odhalit v datech a navrhnout akční retenční strategii pro stabil
 \- průzkumná analýza dat v Databricks, SQL (čištění, agregace, tvorba segmentů)
 
 \- vizualizace a reporting v Power BI (interaktivní dashboard)
+
+<img width="2047" height="1147" alt="dashboard power bi" src="https://github.com/user-attachments/assets/1f50f733-b328-45c5-9929-e22fdf7fd743" />
+
