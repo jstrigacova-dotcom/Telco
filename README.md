@@ -1,7 +1,6 @@
 **📊 O projektu**
 
-Tato analýza zkoumá příčiny odchodu zákazníků v telekomunikační společnosti, kde celková odchodovost dosahuje 26,54 %.
-Cílem bylo odhalit v datech a navrhnout akční retenční strategii pro stabilizaci klientů.
+Cílem projektu bylo identifikovat klíčové rizikové faktory a na jejich základě navrhnout akční strategii pro stabilizaci klientské základny.
 
 
 <img width="2047" height="1147" alt="dashboard power bi" src="https://github.com/user-attachments/assets/1f50f733-b328-45c5-9929-e22fdf7fd743" />
