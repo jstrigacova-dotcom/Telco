@@ -3,6 +3,10 @@
 Tato analýza zkoumá příčiny odchodu zákazníků v telekomunikační společnosti, kde celková odchodovost dosahuje 26,54 %.
 Cílem bylo odhalit v datech a navrhnout akční retenční strategii pro stabilizaci klientů.
 
+
+<img width="2047" height="1147" alt="dashboard power bi" src="https://github.com/user-attachments/assets/1f50f733-b328-45c5-9929-e22fdf7fd743" />
+
+
 **💡 Klíčová zjištění**
 
 **1.) Kritické 3 měsíce:**
@@ -46,7 +50,4 @@ Cílem bylo odhalit v datech a navrhnout akční retenční strategii pro stabil
 \- vizualizace a reporting v Power BI (interaktivní dashboard)
 
 
-
-
-<img width="2047" height="1147" alt="dashboard power bi" src="https://github.com/user-attachments/assets/1f50f733-b328-45c5-9929-e22fdf7fd743" />
 
