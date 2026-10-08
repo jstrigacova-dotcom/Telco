@@ -9,7 +9,7 @@ Cílem projektu bylo identifikovat klíčové rizikové faktory a na jejich zák
 
 **1.) Kritické 3 měsíce:**
 
-- největší riziko ztráty zákazníka hrozí hned v úvodu, protože v prvních 3 měsících odejde 52,09 % nově získaných mladých klientů
+- největší riziko ztráty zákazníka hrozí hned v úvodu, protože v prvních 3 měsících odejde 58,06 % nově získaných mladých klientů
 
 **2.) Past manuálních plateb:**
 
