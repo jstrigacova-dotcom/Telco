@@ -54,7 +54,7 @@ Cílem projektu bylo identifikovat klíčové rizikové faktory a na jejich zák
 
 ### 📈 Fáze 2: Časová analýza a vývoj trendů
 
-V této fázi jsem se zaměřila na sledování vývoje odchodovosti v čase, což byznysu umožní vyhodnocovat úspěšnost budoucích retenčních kampaní.
+V této fázi jsem se zaměřila na sledování vývoje odchodovosti v čase, což nám umožní vyhodnocovat úspěšnost budoucích retenčních kampaní.
 
 **Klíčové kroky:**
 
@@ -64,7 +64,7 @@ V této fázi jsem se zaměřila na sledování vývoje odchodovosti v čase, co
 
 **Ukázky interaktivního dashboardu:**
 
-**1.) Pohled na zákazníky s optickým internetem (Kritický segment):**
+**1.) Pohled na zákazníky s optickým internetem (náš kritický segment):**
 
 <img width="1912" height="850" alt="Power Bi graf - optika" src="https://github.com/user-attachments/assets/fcf909ae-c32d-4015-8864-dcd00821f463" />
 
