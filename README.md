@@ -52,4 +52,31 @@ Cílem projektu bylo identifikovat klíčové rizikové faktory a na jejich zák
 - vizualizace a reporting v Power BI (interaktivní dashboard)
 
 
+### 📈 Fáze 2: Časová analýza a vývoj trendů
+
+V této fázi jsem se zaměřila na sledování vývoje odchodovosti v čase, což byznysu umožní vyhodnocovat úspěšnost budoucích retenčních kampaní.
+
+**Klíčové kroky:**
+
+- **Databricks (SQL):** Vytvořila jsem agregovanou tabulku pro optimalizaci výkonu (snížení na 54 klíčových řádků kombinujících měsíce, úvazky a typ internetu).
+- **Power Query:** Provedla jsem lokální transformaci dat (oprava desetinných formátů) a kompletní překlad hodnot do češtiny pro čistý vizuál.
+- **Power BI:** Sestavila jsem interaktivní spojnicový graf vývoje doplněný o kontextové KPI karty (celkový počet odchodů a objem klientů). Rizikové segmenty jsou vizuálně zvýrazněny korálovou barvou, stabilní úvazky ztlumeny do modré.
+
+**Ukázky interaktivního dashboardu:**
+
+**1.) Pohled na zákazníky s optickým internetem (Kritický segment):**
+
+<img width="1912" height="850" alt="Power Bi graf - optika" src="https://github.com/user-attachments/assets/fcf909ae-c32d-4015-8864-dcd00821f463" />
+
+
+**2.) Pohled na zákazníky s DSL připojením:**
+
+<img width="1886" height="840" alt="Power Bi graf - DSL" src="https://github.com/user-attachments/assets/3942dcc4-ce81-485b-b8aa-8697580b5238" />
+
+
+**3.) Pohled na zákazníky bez internetu:**
+
+<img width="1931" height="857" alt="Power Bi graf - bez internetu" src="https://github.com/user-attachments/assets/c82b821e-03a9-4c33-9104-d18c4f973b28" />
+
+
 
