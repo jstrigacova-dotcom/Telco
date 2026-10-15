@@ -52,31 +52,26 @@ Cílem projektu bylo identifikovat klíčové rizikové faktory a na jejich zák
 - vizualizace a reporting v Power BI (interaktivní dashboard)
 
 
-### 📈 Fáze 2: Časová analýza a vývoj trendů
+### 📈 Fáze 2: Časová analýza, vývoj trendů a věková segmentace
 
-V této fázi jsem se zaměřila na sledování vývoje odchodovosti v čase, což nám umožní vyhodnocovat úspěšnost budoucích retenčních kampaní.
+V této fázi jsem se zaměřila na sledování vývoje odchodovosti v čase a na základě zpětné vazby jsem analýzu rozšířila o věkovou kategorii, což umožňuje cíleně sledovat rizikové skupiny.
 
 **Klíčové kroky:**
-
-- **Databricks (SQL):** Vytvořila jsem agregovanou tabulku pro optimalizaci výkonu (snížení na 54 klíčových řádků kombinujících měsíce, úvazky a typ internetu).
-- **Power Query:** Provedla jsem lokální transformaci dat (oprava desetinných formátů) a kompletní překlad hodnot do češtiny pro čistý vizuál.
-- **Power BI:** Sestavila jsem interaktivní spojnicový graf vývoje doplněný o kontextové KPI karty (celkový počet odchodů a objem klientů). Rizikové segmenty jsou vizuálně zvýrazněny korálovou barvou, stabilní úvazky ztlumeny do modré.
+- **Databricks (SQL):** Vytvořila jsem pokročilou agregovanou tabulku (optimalizace na 108 řádků kombinujících měsíce, úvazky, typ internetu a věkovou kategorii).
+- **Power Query:** Provedla jsem transformaci dat, překlad hodnot na srozumitelné kategorie („Senioři“ / „Ostatní“) a ošetření formátů.
+- **Power BI:** Sestavila jsem interaktivní spojnicový graf doplněný o věkový průřez a přesné DAX míry (vážená odchodovost a měsíční průměr klientů) pro správné fungování celkových i zafiltrovaných součtů.
 
 **Ukázky interaktivního dashboardu:**
 
-**1.) Pohled na zákazníky s optickým internetem (náš kritický segment):**
+**1.) Celkový nezafiltrovaný pohled (základní přehled za celou klientskou základnu):**
 
-<img width="1912" height="850" alt="Power Bi graf - optika" src="https://github.com/user-attachments/assets/fcf909ae-c32d-4015-8864-dcd00821f463" />
-
-
-**2.) Pohled na zákazníky s DSL připojením:**
-
-<img width="1886" height="840" alt="Power Bi graf - DSL" src="https://github.com/user-attachments/assets/3942dcc4-ce81-485b-b8aa-8697580b5238" />
+<img width="1815" height="857" alt="Power Bi graf - bez filtrování, main" src="https://github.com/user-attachments/assets/6bc0daf9-586c-4d68-8678-fe26638ba658" />
 
 
-**3.) Pohled na zákazníky bez internetu:**
+**2.) Pohled na rizikový segment seniorů (se zaměřením na optický internet):**
 
-<img width="1931" height="857" alt="Power Bi graf - bez internetu" src="https://github.com/user-attachments/assets/c82b821e-03a9-4c33-9104-d18c4f973b28" />
+<img width="1797" height="866" alt="Power Bi graf - senioři + optika" src="https://github.com/user-attachments/assets/f42d827f-9e10-4b5a-99f0-2d63638a0239" />
+
 
 
 
