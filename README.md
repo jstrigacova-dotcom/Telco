@@ -35,7 +35,7 @@ Cílem projektu bylo identifikovat klíčové rizikové faktory a na jejich zák
 
 **2.) Bezpečné balíčky:**
 
-- optický internet nenabízet samostatně, ale rovnou v balíčku s technickou podporou a online bezpečnost
+- optický internet nenabízet samostatně, ale rovnou v balíčku s technickou podporou a online bezpečností
 
 **3.) Onboarding:**
 
@@ -54,24 +54,25 @@ Cílem projektu bylo identifikovat klíčové rizikové faktory a na jejich zák
 
 ### 📈 Fáze 2: Časová analýza, vývoj trendů a věková segmentace
 
-V této fázi jsem se zaměřila na sledování vývoje odchodovosti v čase a na základě zpětné vazby jsem analýzu rozšířila o věkovou kategorii, což umožňuje cíleně sledovat rizikové skupiny.
+*⚠️ **Poznámka k datům:** Data použitá pro tuto časovou analýzu jsou syntetická (mock data) dogenerovaná pomocí AI, aby bylo možné na modelových příkladech demonstrativně ukázat vývoj odchodovosti v čase a chování klientské báze.*
+
+V této fázi jsem se zaměřila na sledování vývoje odchodovosti v čase a na základě zpětné vazby jsem analýzu rozšířila o detailní věkovou segmentaci na tři skupiny (**Mladí**, **Produktivní věk** a **Senioři**), což umožňuje cíleně sledovat specifické rizikové skupiny.
 
 **Klíčové kroky:**
-- **Databricks (SQL):** Vytvořila jsem pokročilou agregovanou tabulku (optimalizace na 108 řádků kombinujících měsíce, úvazky, typ internetu a věkovou kategorii).
-- **Power Query:** Provedla jsem transformaci dat, překlad hodnot na srozumitelné kategorie („Senioři“ / „Ostatní“) a ošetření formátů.
+
+- **Databricks (SQL):** Vytvořila jsem pokročilou agregovanou tabulku (optimalizace na 108 řádků kombinujících měsíce, úvazky, typ internetu a 3 věkové kategorie).
+
+- **Power Query:** Provedla jsem transformaci dat, sjednocení a překlad hodnot na srozumitelné kategorie („Mladí“, „Produktivní věk“, „Senioři“) a ošetření datových formátů.
+
 - **Power BI:** Sestavila jsem interaktivní spojnicový graf doplněný o věkový průřez a přesné DAX míry (vážená odchodovost a měsíční průměr klientů) pro správné fungování celkových i zafiltrovaných součtů.
 
 **Ukázky interaktivního dashboardu:**
 
 **1.) Celkový nezafiltrovaný pohled (základní přehled za celou klientskou základnu):**
 
-<img width="1815" height="857" alt="Power Bi graf - bez filtrování, main" src="https://github.com/user-attachments/assets/6bc0daf9-586c-4d68-8678-fe26638ba658" />
+<img width="1782" height="877" alt="nezafiltované" src="https://github.com/user-attachments/assets/4c45cafd-15ad-44d3-8108-a2f898ec0fc5" />
 
 
 **2.) Pohled na rizikový segment seniorů (se zaměřením na optický internet):**
 
-<img width="1797" height="866" alt="Power Bi graf - senioři + optika" src="https://github.com/user-attachments/assets/f42d827f-9e10-4b5a-99f0-2d63638a0239" />
-
-
-
-
+<img width="1757" height="861" alt="zafiltrovaní senioři a optika" src="https://github.com/user-attachments/assets/d61d5b28-c9d7-4df4-a569-d5136da6e166" />
